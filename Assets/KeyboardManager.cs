@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class KeyboardManager : MonoBehaviour
 {
+	public float speed = 20F;
+
+
 	KeyCode [] myKeys = new KeyCode[4];
 	Vector3 myPos;
-	float speed = 0.5F;
+	Rigidbody rgd;
 
 	// Start is called before the first frame update
 	void Start()
@@ -15,12 +18,14 @@ public class KeyboardManager : MonoBehaviour
 		myKeys[1] = KeyCode.A;
 		myKeys[2] = KeyCode.S;
 		myKeys[3] = KeyCode.D;
+		rgd = GetComponent<Rigidbody>();
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		myPos = transform.position;
+		// rgd.velocity = Vector3.zero;
+		myPos = Vector3.zero;
 		foreach (KeyCode key in myKeys){
 			if (Input.GetKey(key)){
 				switch (key)
@@ -44,7 +49,9 @@ public class KeyboardManager : MonoBehaviour
 				}
 			}
 		}
-		transform.position = myPos;
+		rgd.velocity = myPos;
+		// rgd.velocity = Vector3.zero;
+		// transform.position = myPos;
 	}
 
     void OnCollisionEnter (Collision col)
