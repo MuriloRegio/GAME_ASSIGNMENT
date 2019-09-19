@@ -40,7 +40,8 @@ public class KeyboardManager : MonoBehaviour
 		if (hor > 0)
 			mySpriteRenderer.flipX = false;
 
-		rgd.velocity = myPos;
+		rgd.velocity = myPos * Time.timeScale;
+		Debug.Log(Time.timeScale);
 
 
 		if(Input.GetButton("Fire2")) {

@@ -32,8 +32,10 @@ public class Hud : MonoBehaviour
 
 		last = time;
 
-		if (time == 0)
+		if (time == 0){
+			Time.timeScale = 0;
 			guiStyle.fontSize *= mod;
+		}
 
 
 		GUI.Label(new Rect(x, y, 100, 20), ""+time, guiStyle);

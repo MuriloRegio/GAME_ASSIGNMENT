@@ -17,8 +17,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Character
+  - Enemies
   - 
   - 
   - 
@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Enemies
+    uniqueID: 1977625871
+    locked: 0
+  - name: Character
+    uniqueID: 2647019363
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
