@@ -41,7 +41,6 @@ public class KeyboardManager : MonoBehaviour
 			mySpriteRenderer.flipX = false;
 
 		rgd.velocity = myPos * Time.timeScale;
-		Debug.Log(Time.timeScale);
 
 
 		if(Input.GetButton("Fire2")) {

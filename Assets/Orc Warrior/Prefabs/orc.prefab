@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 400000}
+  - component: {fileID: 380056120922738580}
   m_Layer: 0
   m_Name: orc
   m_TagString: Untagged
@@ -16,7 +16,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400000
+--- !u!4 &380056120922738580
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400016}
+  - {fileID: 2513130253731325130}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -39,7 +39,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 400002}
+  - component: {fileID: 5019713673294924084}
   - component: {fileID: 21200000}
   m_Layer: 0
   m_Name: orc_head
@@ -48,7 +48,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400002
+--- !u!4 &5019713673294924084
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,7 +59,7 @@ Transform:
   m_LocalPosition: {x: 0.14581591, y: 0.424, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400016}
+  m_Father: {fileID: 2513130253731325130}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &21200000
@@ -98,7 +98,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1977625871
-  m_SortingLayer: 2
+  m_SortingLayer: -2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1893393279638077570, guid: 8a72ffba25c088349984b59bd2159399,
     type: 3}
@@ -120,7 +120,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 400004}
+  - component: {fileID: 1205281912963855466}
   - component: {fileID: 21200002}
   m_Layer: 0
   m_Name: orc_L_hand
@@ -129,7 +129,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400004
+--- !u!4 &1205281912963855466
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Transform:
   m_LocalPosition: {x: -0.46795535, y: -1.2306471, z: -0.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400006}
+  m_Father: {fileID: 6760110935111551050}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &21200002
@@ -179,7 +179,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1977625871
-  m_SortingLayer: 2
+  m_SortingLayer: -2
   m_SortingOrder: 2
   m_Sprite: {fileID: 7853457561824045675, guid: 8a72ffba25c088349984b59bd2159399,
     type: 3}
@@ -201,7 +201,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 400006}
+  - component: {fileID: 6760110935111551050}
   - component: {fileID: 21200004}
   m_Layer: 0
   m_Name: orc _L_arm
@@ -210,7 +210,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400006
+--- !u!4 &6760110935111551050
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,8 +221,8 @@ Transform:
   m_LocalPosition: {x: -0.728, y: 0.65, z: -0.061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400004}
-  m_Father: {fileID: 400016}
+  - {fileID: 1205281912963855466}
+  m_Father: {fileID: 2513130253731325130}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &21200004
@@ -261,7 +261,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1977625871
-  m_SortingLayer: 2
+  m_SortingLayer: -2
   m_SortingOrder: 1
   m_Sprite: {fileID: 8326015358568698469, guid: 8a72ffba25c088349984b59bd2159399,
     type: 3}
@@ -283,7 +283,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 400008}
+  - component: {fileID: 5464014597050954727}
   - component: {fileID: 21200006}
   m_Layer: 0
   m_Name: orc _R_arm
@@ -292,7 +292,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400008
+--- !u!4 &5464014597050954727
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -303,8 +303,8 @@ Transform:
   m_LocalPosition: {x: 0.5498632, y: 0.19, z: -0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400018}
-  m_Father: {fileID: 400016}
+  - {fileID: 1319911630749390771}
+  m_Father: {fileID: 2513130253731325130}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &21200006
@@ -343,7 +343,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1977625871
-  m_SortingLayer: 2
+  m_SortingLayer: -2
   m_SortingOrder: -1
   m_Sprite: {fileID: -8594208477830399318, guid: 8a72ffba25c088349984b59bd2159399,
     type: 3}
@@ -365,7 +365,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 400010}
+  - component: {fileID: 4714142730388969073}
   - component: {fileID: 21200008}
   m_Layer: 0
   m_Name: orc_pants
@@ -374,7 +374,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400010
+--- !u!4 &4714142730388969073
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -385,7 +385,7 @@ Transform:
   m_LocalPosition: {x: -0.006, y: -1.087, z: -0.045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400016}
+  m_Father: {fileID: 2513130253731325130}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &21200008
@@ -424,7 +424,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1977625871
-  m_SortingLayer: 2
+  m_SortingLayer: -2
   m_SortingOrder: 2
   m_Sprite: {fileID: 2982072868556792545, guid: 8a72ffba25c088349984b59bd2159399,
     type: 3}
@@ -446,7 +446,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 400012}
+  - component: {fileID: 5515154645846236845}
   - component: {fileID: 21200010}
   m_Layer: 0
   m_Name: orc _L_leg
@@ -455,7 +455,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400012
+--- !u!4 &5515154645846236845
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -466,7 +466,7 @@ Transform:
   m_LocalPosition: {x: -0.344, y: -0.94, z: 0.011}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400016}
+  m_Father: {fileID: 2513130253731325130}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &21200010
@@ -505,7 +505,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1977625871
-  m_SortingLayer: 2
+  m_SortingLayer: -2
   m_SortingOrder: 1
   m_Sprite: {fileID: -7688038663293708690, guid: 8a72ffba25c088349984b59bd2159399,
     type: 3}
@@ -527,7 +527,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 400014}
+  - component: {fileID: 7360215343534809523}
   - component: {fileID: 21200012}
   m_Layer: 0
   m_Name: orc _R_leg
@@ -536,7 +536,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400014
+--- !u!4 &7360215343534809523
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -547,7 +547,7 @@ Transform:
   m_LocalPosition: {x: 0.27376735, y: -1.019, z: 0.019}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400016}
+  m_Father: {fileID: 2513130253731325130}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &21200012
@@ -586,7 +586,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1977625871
-  m_SortingLayer: 2
+  m_SortingLayer: -2
   m_SortingOrder: -1
   m_Sprite: {fileID: 7144472625831931075, guid: 8a72ffba25c088349984b59bd2159399,
     type: 3}
@@ -608,7 +608,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 400016}
+  - component: {fileID: 2513130253731325130}
   - component: {fileID: 21200014}
   m_Layer: 0
   m_Name: orc_body
@@ -617,7 +617,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400016
+--- !u!4 &2513130253731325130
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -628,13 +628,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 2.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400006}
-  - {fileID: 400012}
-  - {fileID: 400008}
-  - {fileID: 400014}
-  - {fileID: 400002}
-  - {fileID: 400010}
-  m_Father: {fileID: 400000}
+  - {fileID: 6760110935111551050}
+  - {fileID: 5515154645846236845}
+  - {fileID: 5464014597050954727}
+  - {fileID: 7360215343534809523}
+  - {fileID: 5019713673294924084}
+  - {fileID: 4714142730388969073}
+  m_Father: {fileID: 380056120922738580}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &21200014
@@ -673,7 +673,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1977625871
-  m_SortingLayer: 2
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 6379218869855293885, guid: 8a72ffba25c088349984b59bd2159399,
     type: 3}
@@ -695,7 +695,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 400018}
+  - component: {fileID: 1319911630749390771}
   - component: {fileID: 21200016}
   m_Layer: 0
   m_Name: orc _R_hand
@@ -704,7 +704,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400018
+--- !u!4 &1319911630749390771
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -716,7 +716,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400020}
-  m_Father: {fileID: 400008}
+  m_Father: {fileID: 5464014597050954727}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &21200016
@@ -755,7 +755,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1977625871
-  m_SortingLayer: 2
+  m_SortingLayer: -2
   m_SortingOrder: 2
   m_Sprite: {fileID: -4508973365235293115, guid: 8a72ffba25c088349984b59bd2159399,
     type: 3}
@@ -797,7 +797,7 @@ Transform:
   m_LocalPosition: {x: -0.008383989, y: -0.008623004, z: 0.052}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400018}
+  m_Father: {fileID: 1319911630749390771}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &21200018
@@ -836,7 +836,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1977625871
-  m_SortingLayer: 2
+  m_SortingLayer: -2
   m_SortingOrder: 1
   m_Sprite: {fileID: -7426387950394786989, guid: 8a72ffba25c088349984b59bd2159399,
     type: 3}
