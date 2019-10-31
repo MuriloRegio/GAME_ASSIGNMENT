@@ -6,7 +6,7 @@ public class chase : MonoBehaviour
 {
 	public string target_name = "Character";
 	public float speed = 2.5F;
-	public float inc = 0.5F;
+	public float inc = 1F;
 
 	Transform target;
 

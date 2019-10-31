@@ -20,6 +20,7 @@ public class Hud : MonoBehaviour
 
 	void OnGUI() {
 		int time = (int) Mathf.Round(rem_time);
+		SceneInfo.rem_time = time;
 
 		int x = xpos;
 		int y = ypos;

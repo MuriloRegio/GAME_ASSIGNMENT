@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class ObjectiveManager : MonoBehaviour
@@ -30,6 +31,7 @@ public class ObjectiveManager : MonoBehaviour
         		return;
 
         	Debug.Log("GAME OVER");
+        	SceneManager.LoadScene("Credits");
         }
     }
 }
