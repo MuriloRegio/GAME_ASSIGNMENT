@@ -68,6 +68,7 @@ public class KeyboardManager : MonoBehaviour
 		// 	Debug.Log("Y THO");
 		// }
 
+		// if(true) {
 		if(Input.GetButton("Fire2")) {
 			float rotateHorizontal = Input.GetAxis ("Mouse X");
 			transform.RotateAround(transform.position, Vector3.up, rotateHorizontal * sensitivity); //use transform.Rotate(-transform.up * rotateHorizontal * sensitivity) instead if you dont want the camera to rotate around the player

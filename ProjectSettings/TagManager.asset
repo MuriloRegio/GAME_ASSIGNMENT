@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Door
   - Key
+  - KEY_LIGHT
+  - DOOR_LIGHT
   layers:
   - Default
   - TransparentFX

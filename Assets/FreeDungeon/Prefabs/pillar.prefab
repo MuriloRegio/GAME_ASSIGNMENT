@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4561529027517492}
   - component: {fileID: 33166559169221394}
   - component: {fileID: 23397025608223192}
+  - component: {fileID: 8668509787936113103}
   m_Layer: 0
   m_Name: pillar
   m_TagString: Untagged
@@ -78,3 +79,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!208 &8668509787936113103
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627412908355568}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.36, y: 2.505, z: 1.36}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 2.505, z: 0}
+  m_TimeToStationary: 0.5
