@@ -37,6 +37,10 @@ public class CreditsHud : MonoBehaviour
 	}
 
 	void Update() {
+		if (Input.GetKeyDown(KeyCode.R))
+		{
+			Application.LoadLevel(0);
+		}
 	
 	}
 }

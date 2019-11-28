@@ -5,7 +5,7 @@ using UnityEngine;
 public class KeyboardManager : MonoBehaviour
 {
 	public float speed = 20F;
-	public float sensitivity = 1F;
+	public float sensitivity = 2F;
 
 	SpriteRenderer mySpriteRenderer;
 	Vector3 myPos;
@@ -24,11 +24,26 @@ public class KeyboardManager : MonoBehaviour
 		animator 	= GetComponent<Animator>();
 		var camera  = GameObject.FindWithTag("MainCamera");
 		hud 	 	= camera.GetComponent<Hud>();
+
+		Screen.lockCursor = true;
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
+		if (Input.GetKeyDown(KeyCode.R))
+		{
+			Application.LoadLevel(0);
+		}
+		if (Input.GetKeyDown(KeyCode.Q))
+		{
+     		#if UNITY_EDITOR
+				UnityEditor.EditorApplication.isPlaying = false;
+		    #else
+				Application.Quit();
+		    #endif
+		}
+
 		if (hud.rem_time <= 2){
 			// Debug.Log(hud.rem_time);
 			animator.SetBool("isDead", true);
@@ -69,10 +84,10 @@ public class KeyboardManager : MonoBehaviour
 		// }
 
 		// if(true) {
-		if(Input.GetButton("Fire2")) {
+		// if(Input.GetButton("Fire2")) {
 			float rotateHorizontal = Input.GetAxis ("Mouse X");
 			transform.RotateAround(transform.position, Vector3.up, rotateHorizontal * sensitivity); //use transform.Rotate(-transform.up * rotateHorizontal * sensitivity) instead if you dont want the camera to rotate around the player
-		}
+		// }
 	}
 
     void OnCollisionEnter (Collision col)
